@@ -7,4 +7,4 @@ if numero.isdigit() and 1 <= int(numero) <= 10:
         print(f'{numero} X {i} = {numero * i}')
 else:
     #foolproofing
-    print('O que voce digitou não é válido, reinicie o código!')
+    print('O que voce ')
