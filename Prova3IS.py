@@ -1,5 +1,5 @@
-numero = input('Digite o número a ser multiplicado: ')
-if numero.isdigit():
+numero = input('Digite um número de 1 a 10 para que o código gere a tabuada: ')
+if numero.isdigit() and 1 <= int(numero) <= 10:
     #código
     numero = int(numero)
     print(f'Tabuada de {numero}:')
@@ -7,4 +7,4 @@ if numero.isdigit():
         print(f'{numero} X {i} = {numero * i}')
 else:
     #foolproofing
-    print('Você não digitou um número!, reinicie o código')
+    print('O que voce digitou não é válido, reinicie o código!')
